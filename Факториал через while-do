@@ -1,0 +1,17 @@
+using System;
+
+namespace project3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int N = Convert.ToInt32(Console.ReadLine());
+            int b = 1;
+            do { b *= N; N--; }
+            while (N > 0);
+            Console.WriteLine(b);
+            
+        }
+    }
+}
